@@ -29,6 +29,7 @@ import Payment from './pages/Payment';
 import Order from './pages/Order';
 import Support from './pages/Support';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import RefundPolicy from './pages/RefundPolicy';
 
 import './default.scss';
 import Snackbar from '@material-ui/core/Snackbar';
@@ -133,6 +134,14 @@ const App = (props) => {
 						render={() => (
 							<MainLayout>
 								<PrivacyPolicy />
+							</MainLayout>
+						)}
+					/>
+					<Route
+						path="/refundPolicy"
+						render={() => (
+							<MainLayout>
+								<RefundPolicy />
 							</MainLayout>
 						)}
 					/>

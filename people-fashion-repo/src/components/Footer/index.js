@@ -9,7 +9,8 @@ const Footer = (props) => {
 		<footer className="footer">
 			<div className="wrap">© People Fashion {year} | 
 			<Link to="/privacyPolicy"> Privacy Policy</Link> |
-			<Link to="/support"> Support</Link>
+			<Link to="/support"> Support </Link> |
+			<Link to="/refundPolicy"> Refund Policy</Link>
 			</div>
 		</footer>
 	);
