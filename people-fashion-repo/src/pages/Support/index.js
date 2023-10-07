@@ -1,12 +1,13 @@
 import React from 'react';
 import Checkout from './../../components/Checkout';
+import SupportChild from './../../components/Support';
 
-const Cart = ({}) => {
+const Support = ({}) => {
   return (
     <div>
-      <Checkout />
+      <SupportChild />
     </div>
   );
 }
 
-export default Cart;
+export default Support;

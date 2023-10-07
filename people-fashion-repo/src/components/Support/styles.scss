@@ -1,0 +1,77 @@
+.SupportChild {
+  margin: 2rem auto;
+
+  h1 {
+    display: block;
+    width: 100%;
+  }
+
+  h1, p {
+    text-align: center;
+  }
+
+  .SupportChildHeader {
+    border-bottom: 1px solid black;
+  }
+
+  .Support {
+    max-width: 100.0rem;
+    margin: 0 auto;
+
+    table {
+      width: 100%;
+    }
+  }
+
+  .SupportChildHeader,
+  .Support {
+    width: 100%;
+    text-align: left;
+
+    th,
+    td {
+      width: 22%;
+    }
+  }
+
+  .SupportItem {
+    td img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .SupportBtns {
+    display: block;
+    width: 100%;
+  }
+
+  .SupportBtn {
+    cursor: pointer;
+  }
+
+}
+
+@media only screen and (max-width: 980px) {
+
+  .SupportChildHeader {
+    display: none;
+  }
+
+  .SupportItem {
+    border: 1px solid black;
+  }
+
+  .SupportChild .Support td {
+    display: block;
+    width: 100%;
+  }
+
+  .SupportChild .SupportBtn.remove {
+    display: block;
+    width: 100%;
+    padding: 1.0rem;
+    background-color: black;
+    color: white;
+  }
+}

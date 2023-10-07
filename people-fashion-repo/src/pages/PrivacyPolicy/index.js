@@ -1,12 +1,13 @@
 import React from 'react';
 import Checkout from './../../components/Checkout';
+import Policy from './../../components/PrivacyPolicy';
 
-const Cart = ({}) => {
+const PrivacyPolicy = ({}) => {
   return (
     <div>
-      <Checkout />
+      <Policy />
     </div>
   );
 }
 
-export default Cart;
+export default PrivacyPolicy;
